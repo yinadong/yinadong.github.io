@@ -1,6 +1,6 @@
 
 //Import data
-const momaDataPromise = d3.csv('../../data/momadata.csv', parseMomaData)
+const momaDataPromise = d3.csv('data/momadata.csv', parseMomaData)
 	.then(data => data.reduce((acc,v) => acc.concat(v), []));
 //console.log(momaDataPromise);
 const W = d3.select('.chart').node().clientWidth;
