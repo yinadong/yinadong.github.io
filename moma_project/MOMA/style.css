@@ -1,0 +1,81 @@
+html,body{
+	margin:0;
+	padding:0;
+}
+
+#tooltip{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+h1{
+  text-align: center;
+  font-family: Gillsans;
+  color: black;
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+h2{
+  text-align: center;
+  font-family: Gillsans;
+  color: grey;
+  font-size: 25px;
+  margin-top: 2px;
+  margin-bottom: 5px;
+}
+
+h3, h4, h5, label{
+  text-align: left;
+  font-family: Gillsans;
+  color: grey;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+
+}
+
+p{
+  font-family: Gillsans;
+  color: black;
+  font-size: 16px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+.moma{
+  width:200px;
+  float: right;
+  position: absolute;
+  right:0px;
+  top:0px;
+}
+
+.moma2{
+  width:200px;
+  float: right;
+  position: absolute;
+  right:0px;
+  top:75px;
+}
+
+.container {
+  max-width: 1500px;
+  margin: auto;
+  position: relative;
+}
+
+.chart{
+  position:relative;
+}
+
+.chat2{
+  right:100;
+  left:100;
+  position:relative;
+}
+.inline {
+  display: inline-block;
+}

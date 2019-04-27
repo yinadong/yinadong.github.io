@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.11/jquery-ui.min.js"></script>
+		<link href='./style.css' rel='stylesheet' />
+	</head>
+	<body>
+		<div class='container'>
+      <div class="offset-2 col-sm-8 mt-5 mb-5">
+			 <h1>MOMA Collections</h1>
+       <h2>through 1930 to 2018</h2>
+       <p class="by" align="center">by Yinan Dong</a > &nbsp;|&nbsp; March, 2019</p>
+       <h3>MoMA plays a major role in developing and collecting modernist art, and is often identified as one of the largest and most influential museums of modern art in the world. MoMA's collection offers an overview of modern and contemporary art, including works of architecture and design, drawing, painting, sculpture, photography, prints, illustrated books and artist's books, film, and electronic media.</h3>
+      <div class='form-group'>
+              <label for='input-2'>Look through MOMA Collections by year</label>
+              <select id="selectButton"></select>
+            </div>
+			<div class='chart' style='height:1050px'> 
+      <img class= "moma" src = "img/label.png" alt="MOMA">   
+      </div>
+      <div class="offset-2 col-sm-10 mt-5 mb-5">
+      <h5>MOMA evolving collection contains almost 200,000 works of modern and
+      contemporary art. Those artworks are from all over the world. In the ealry 90s, most of artworks are from Amerian, European countries. Gradually, MOMA's collections have expaned from western countries to Asian's, African countries. More and more artworks are from Japan, Korean, China and so on.</h5>
+      <h4>Look through MOMA Collections by countries</h4>
+      <img class= "moma2" src = "img/label.png" alt="MOMA"> 
+      <div class='chart2' style='height:1000px'></div>
+      </div>
+      </div>
+		<script src='../../../lib/d3/d3.min.js'></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.5/dat.gui.js'></script>
+		<script src='./script.js'></script>
+	</body>
+</html>
