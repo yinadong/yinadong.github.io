@@ -1,6 +1,6 @@
 
 //Import data
-const momaDataPromise = d3.csv('../../data/moma/momadata.csv', parseMomaData)
+const momaDataPromise = d3.csv('data/momadata.csv', parseMomaData)
 	.then(data => data.reduce((acc,v) => acc.concat(v), []));
 //console.log(momaDataPromise);
 const W = d3.select('.chart').node().clientWidth;
@@ -50,7 +50,7 @@ d3.select("#selectButton")
 d3.select("#selectButton").on("change", function(d) {
         // recover the option that has been chosen
         const YEAR = d3.select(this).property("value")
-        const indicatorsByYear = filterByYear(indicators, Year);
+        const indicatorsByYear = filterByYear(indicators, YEAR);
         // run the updateChart function with this selected option
         drawChart(indicatorsByYear, plot);
    })
